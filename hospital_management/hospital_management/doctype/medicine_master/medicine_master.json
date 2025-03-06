@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-03-05 14:22:47.415105",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "medicine_details_section",
+  "naming_series",
+  "medicine_name",
+  "generic_name",
+  "category",
+  "unit_price",
+  "stock_quantity",
+  "supplier",
+  "price"
+ ],
+ "fields": [
+  {
+   "fieldname": "medicine_details_section",
+   "fieldtype": "Section Break",
+   "label": "Medicine Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Medicine ID ",
+   "options": "MED-"
+  },
+  {
+   "fieldname": "medicine_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Medicine Name ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "generic_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Generic Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Category",
+   "options": "\nAntibiotic\nPainkiller\nAntihistamine",
+   "reqd": 1
+  },
+  {
+   "default": "0.0",
+   "fieldname": "unit_price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Unit Price",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "stock_quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Stock Quantity",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Supplier",
+   "reqd": 1
+  },
+  {
+   "default": "0.00",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "non_negative": 1,
+   "read_only": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-06 09:50:05.498305",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Medicine Master",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

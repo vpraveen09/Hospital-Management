@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-03-05 13:58:42.549277",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "diagnostic_and_medicine_details_section",
+  "naming_series",
+  "patient_id",
+  "doctor_id",
+  "tests_prescribed",
+  "diagnosis",
+  "medicine",
+  "total_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "diagnostic_and_medicine_details_section",
+   "fieldtype": "Section Break",
+   "label": "Diagnostic And Medicine Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Diagnostic ID",
+   "options": "DIA-"
+  },
+  {
+   "fieldname": "patient_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient ID",
+   "options": "Patient Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctor_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Doctor ID",
+   "options": "Doctor Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tests_prescribed",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Tests Prescribed ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "diagnosis",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Diagnosis",
+   "reqd": 1
+  },
+  {
+   "fieldname": "medicine",
+   "fieldtype": "Table",
+   "label": "Medicine",
+   "options": "Medicine Prescribed",
+   "reqd": 1
+  },
+  {
+   "default": "0.00",
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount",
+   "non_negative": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-05 18:43:28.991956",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Diagnostic And Medicine",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

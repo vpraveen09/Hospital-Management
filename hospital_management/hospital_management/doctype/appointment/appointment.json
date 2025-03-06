@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-03-05 13:50:34.755872",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "appointment_details_section",
+  "naming_series",
+  "patient_id",
+  "doctor_id",
+  "appointment_date_and_time",
+  "reason_for_visit",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "appointment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Appointment Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Appointment ID ",
+   "options": "APP-"
+  },
+  {
+   "fieldname": "patient_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Patient ID ",
+   "options": "Patient Master",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctor_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Doctor ID",
+   "options": "Doctor Master",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "doctor_id.availability",
+   "fieldname": "appointment_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Appointment Date And Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reason_for_visit",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Reason for Visit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "\nScheduled\nCompleted\nCancelled",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-06 09:46:02.559981",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Appointment",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Yellow",
+   "title": "Scheduled"
+  },
+  {
+   "color": "Red",
+   "title": "Cancelled"
+  }
+ ]
+}

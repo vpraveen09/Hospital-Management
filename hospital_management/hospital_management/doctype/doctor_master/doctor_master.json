@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2025-03-05 13:41:24.946379",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "doctor_details_section",
+  "naming_series",
+  "full_name",
+  "specialization",
+  "qualification",
+  "contact_number",
+  "email_address",
+  "availability",
+  "consultation_fee"
+ ],
+ "fields": [
+  {
+   "fieldname": "doctor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Doctor Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Doctor ID",
+   "options": "DOC-"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "specialization",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Specialization",
+   "options": "\nCardiology\nOrthopedics\nDermatology",
+   "reqd": 1
+  },
+  {
+   "fieldname": "qualification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qualification ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "Contact Number ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email Address ",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "availability",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Availability",
+   "reqd": 1
+  },
+  {
+   "fieldname": "consultation_fee",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Consultation Fee",
+   "non_negative": 1,
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-05 13:49:36.956320",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Doctor Master",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
