@@ -89,7 +89,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-06 09:50:05.498305",
+ "modified": "2025-03-11 19:18:13.035719",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Medicine Master",
@@ -107,8 +107,21 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Doctor",
+   "share": 1,
+   "write": 1
   }
  ],
+ "search_fields": "medicine_name ",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

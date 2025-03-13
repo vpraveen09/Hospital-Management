@@ -10,7 +10,7 @@
   "naming_series",
   "patient_id",
   "doctor_id",
-  "medicine_id",
+  "diagnostic_id",
   "consulting_fee",
   "medicine_charges",
   "bill_date",
@@ -55,7 +55,7 @@
    "reqd": 1
   },
   {
-   "fetch_from": "medicine_id.price",
+   "fetch_from": "diagnostic_id.total_amount",
    "fieldname": "medicine_charges",
    "fieldtype": "Currency",
    "in_list_view": 1,
@@ -84,21 +84,19 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Payment Status",
-   "options": "\nPending\nPaid",
+   "options": "Pending\nPaid",
    "reqd": 1
   },
   {
-   "fieldname": "medicine_id",
+   "fieldname": "diagnostic_id",
    "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Medicine ID",
-   "options": "Medicine Master",
-   "reqd": 1
+   "label": "Diagnostic ID",
+   "options": "Diagnostic And Medicine"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-03-06 09:57:33.767639",
+ "modified": "2025-03-11 19:24:02.352256",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Bill for Consulting Fee And Medicine",
@@ -114,6 +112,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Counter",
    "share": 1,
    "write": 1
   }

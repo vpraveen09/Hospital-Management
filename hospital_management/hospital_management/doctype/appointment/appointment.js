@@ -6,3 +6,17 @@
 
 // 	},
 // });
+frappe.ui.form.on('Appointment', {
+    after_save: function(frm) {
+        frappe.msgprint({
+            title: __('Success'),
+            message: __('Appointment Created Successfully!'),
+            indicator: 'green'
+        });
+
+        // Redirect to Patient Master after a short delay
+        setTimeout(function() {
+            frappe.set_route('Form', 'Patient Master', frm.doc.patient);
+        }, 2000); // 2-second delay
+    }
+});

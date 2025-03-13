@@ -101,8 +101,13 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-03-05 13:33:45.162248",
+ "links": [
+  {
+   "link_doctype": "Appointment",
+   "link_fieldname": "patient_id"
+  }
+ ],
+ "modified": "2025-03-12 10:44:53.677582",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Patient Master",
@@ -120,8 +125,42 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Reception",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Counter",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Doctor",
+   "share": 1,
+   "write": 1
   }
  ],
+ "search_fields": "full_name",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
