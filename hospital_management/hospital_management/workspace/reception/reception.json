@@ -1,0 +1,37 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"cvk-Fepnxw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Reception</span>\",\"col\":12}},{\"id\":\"-uFjEwahEu\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Patient Details\",\"col\":4}},{\"id\":\"mtfAxmo68D\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Appointment Details\",\"col\":4}}]",
+ "creation": "2025-03-14 11:23:22.571564",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Reception",
+ "links": [],
+ "modified": "2025-03-14 11:31:00.684808",
+ "modified_by": "Administrator",
+ "module": "Hospital Management",
+ "name": "Reception",
+ "number_cards": [
+  {
+   "label": "Appointment Details",
+   "number_card_name": "Appointment Details-1"
+  },
+  {
+   "label": "Patient Details",
+   "number_card_name": "Patient Details"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 24.0,
+ "shortcuts": [],
+ "title": "Reception"
+}
