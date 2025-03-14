@@ -6,6 +6,7 @@
 
 // 	},
 // });
+
 frappe.ui.form.on('Appointment', {
     after_save: function(frm) {
         frappe.msgprint({

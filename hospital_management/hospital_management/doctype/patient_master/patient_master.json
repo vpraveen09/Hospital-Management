@@ -75,6 +75,7 @@
    "reqd": 1
   },
   {
+   "default": "\n\n\n\n\n\n\n\n\n\n",
    "fieldname": "emergency_contact",
    "fieldtype": "Phone",
    "in_list_view": 1,
@@ -107,7 +108,7 @@
    "link_fieldname": "patient_id"
   }
  ],
- "modified": "2025-03-12 10:44:53.677582",
+ "modified": "2025-03-14 15:03:05.535174",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Patient Master",
