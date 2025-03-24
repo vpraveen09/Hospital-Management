@@ -23,7 +23,7 @@ function redirect_to_doctor_master(frm) {
     });
 
     setTimeout(() => {
-        frappe.set_route("List", "Doctor Master"); // Redirect to the list of Doctor Master
+        frappe.set_route("List", "Appointment"); // Redirect to the list of Doctor Master
     }, 2000); // Delay for better user experience
 }
 
@@ -87,3 +87,4 @@ function calculate_total_amount(frm) {
     // Update total amount in the main form
     frm.set_value("total_amount", overall_total);
 }
+

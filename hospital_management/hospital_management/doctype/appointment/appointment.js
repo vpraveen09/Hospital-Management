@@ -17,7 +17,7 @@ frappe.ui.form.on('Appointment', {
 
         // Redirect to Patient Master after a short delay
         setTimeout(function() {
-            frappe.set_route('Form', 'Patient Master', frm.doc.patient);
+            frappe.set_route('Form', 'Appointment', frm.doc.patient);
         }, 2000); // 2-second delay
     }
 });

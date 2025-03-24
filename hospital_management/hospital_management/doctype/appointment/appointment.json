@@ -73,11 +73,12 @@
    "link_fieldname": "doctor_id"
   }
  ],
- "modified": "2025-03-13 10:24:44.962270",
+ "modified": "2025-03-17 12:53:19.590151",
  "modified_by": "Administrator",
  "module": "Hospital Management",
  "name": "Appointment",
  "naming_rule": "By \"Naming Series\" field",
+ "nsm_parent_field": "parent_appointment",
  "owner": "Administrator",
  "permissions": [
   {
