@@ -1,4 +1,4 @@
-from frappe.model.document import Document
+from frappe.model.document import Document # type: ignore
 
 class DiagnosticAndMedicine(Document):
     pass

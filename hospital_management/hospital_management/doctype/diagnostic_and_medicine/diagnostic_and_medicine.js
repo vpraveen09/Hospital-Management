@@ -1,4 +1,3 @@
-
 frappe.ui.form.on("Diagnostic And Medicine", {
     refresh: function (frm) {
         console.log("Form refreshed");
