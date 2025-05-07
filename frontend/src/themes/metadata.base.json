@@ -1,0 +1,113 @@
+{
+    "items": [
+      {
+        "key": "$base-accent",
+        "value": "rgba(243, 243, 243, 1)"
+    },
+    {
+        "key": "$button-default-color",
+        "value": "rgba(36, 36, 36, 1)"
+    },
+    {
+        "key": "$pager-page-selected-color",
+        "value": "rgba(36, 36, 36, 1)"
+    },
+    {
+        "key": "$base-border-radius",
+        "value": "8px"
+    },
+    {
+        "key": "$base-font-family",
+        "value": "\"InterVariable\", \"Inter\", \"-apple-system\", \"BlinkMacSystemFont\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif"
+    },
+    {
+        "key": "$base-link-color",
+        "value": "rgba(82, 82, 82, 1)"
+    },
+    {
+        "key": "$base-label-color",
+        "value": "rgba(82, 82, 82, 1)"
+    },
+    {
+        "key": "$base-spin-icon-color",
+        "value": "rgba(82, 82, 82, 1)"
+    },
+    {
+        "key": "$datagrid-border-radius",
+        "value": "8px"
+    },
+    {
+        "key": "$datagrid-columnchooser-font-weight",
+        "value": "700"
+    },
+    {
+        "key": "$selectbox-list-bg",
+        "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+        "key": "$button-default-selected-color",
+        "value": "rgba(36, 36, 36, 1)"
+    },
+    {
+        "key": "$button-success-selected-color",
+        "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+        "key": "$button-success-color",
+        "value": "rgba(255, 255, 255, 1)"
+    },
+    {
+        "key": "$base-focus-color",
+        "value": "rgba(36, 36, 36, 1)"
+    },
+    {
+        "key": "$base-border-color",
+        "value": "rgba(224, 224, 224, 1)"
+    },
+    {
+      "key": "$texteditor-border-bottom-color",
+      "value": "rgba(224, 224, 224, 1)"
+  },
+  {
+      "key": "$datagrid-editor-bg",
+      "value": "rgba(243, 243, 243, 1)"
+  },
+  {
+      "key": "$gallery-indicator-item-selected-bg",
+      "value": "rgba(0, 0, 0, 1)"
+  },
+  {
+      "key": "$gallery-indicator-focused-bg",
+      "value": "rgba(0, 0, 0, 1)"
+  },
+  {
+      "key": "$progressbar-range-bg",
+      "value": "rgba(0, 0, 0, 1)"
+  },
+  {
+      "key": "$switch-on-bg",
+      "value": "rgba(0, 0, 0, 1)"
+  },
+  {
+      "key": "$switch-bg",
+      "value": "rgba(0, 0, 0, 0)"
+  },
+  {
+      "key": "$base-text-color",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+      "key": "$datagrid-cell-modified-border-color",
+      "value": "rgba(255, 255, 255, 1)"
+  },
+  {
+      "key": "$datagrid-search-bg",
+      "value": "rgba(255, 255, 255, 1)"
+  }
+    ],
+    "baseTheme": "fluent.blue.light",
+    "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+    "outputColorScheme": "custom-scheme",
+    "base": true
+  }
+  

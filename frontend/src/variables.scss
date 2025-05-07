@@ -1,0 +1,73 @@
+:root {
+	body {
+	  @import "./themes/generated/variables.base.scss";
+
+	  --base-text-color:  #{$base-text-color};
+	  --base-bg: #{$base-bg};
+	  --base-bg-darken-5: #{darken($base-bg, 5)};
+	  --base-accent:  #{$base-accent};
+	  --base-text-color-alpha-7:  #{rgba($base-text-color, alpha($base-text-color) * 0.7)};
+	  --footer-border-color: rgba(224, 224, 224, 1);
+
+	  --plus-icon-color: #242424;
+	  --devextreme-logo-color: #596C7D;
+	  --vue-logo-text-color: #35495E;
+
+	  --shadow-color-first: rgba(0, 0, 0, 0.06);
+	  --shadow-color-second: rgba(0, 0, 0, 0.12);
+
+	  --base-border-color: #ededed;
+	  --additional-btn-text-color: rgb(247, 241, 241);
+	  --additional-btn-bgcolor:rgba(0, 0, 0, 0.06);
+	  --base-pager-hover-bgcolor: rgb(177, 176, 176);
+	  --base-row-hover-bgcolor: #f3f3f3;
+
+	  --base-header-row-bgcolor: #f3f3f3;
+	  --nav-bar-color:#383838;
+	  --base-header-row-color:  #525252;
+	  --checkbox-color: black;
+	  --custom-color: white;
+	  --error-pill-bgcolor: #fff1e7;
+	  --error-pill-color: #bd3e0c;
+
+	  --draft-pill-bgcolor:#f3f3f3;
+	  --draft-pill-color:#525252;
+
+	}
+
+	.dx-swatch-dark, .dx-swatch-additional-dark {
+	  @import "./themes/generated/variables.base.dark.scss";
+
+	  --base-text-color:  #{$base-text-color};
+	  --base-bg: #{$base-bg};
+	  --base-bg-darken-5: #{darken($base-bg, 5)};
+	  --base-accent:  #{$base-accent};
+	  --base-text-color-alpha-7:  #{rgba($base-text-color, alpha($base-text-color) * 0.7)};
+
+	  --plus-icon-color: #fff;
+	  --devextreme-logo-color: #fff;
+	  --vue-logo-text-color: #fff;
+
+	  --shadow-color-first: rgba(0, 0, 0, 0.12);
+	  --shadow-color-second: rgba(0, 0, 0, 0.24);
+	  --footer-border-color: rgba(97, 97, 97, 1);
+
+	  --base-border-color: #232323;
+	  --additional-btn-text-color: rgba(0, 0, 0, 0.06);
+	  --additional-btn-bgcolor:rgb(247, 241, 241);
+	  --base-pager-hover-bgcolor: rgb(177, 176, 176);
+	  --base-row-hover-bgcolor: #383838;
+
+	  --base-header-row-color: #c7c7c7;
+	  --nav-bar-color:#f8f8f8;
+	  --base-header-row-bgcolor: #232323;
+	  --checkbox-color: white;
+	  --custom-color: #{$base-bg};
+	  --error-pill-bgcolor: #bd3e0c;
+	  --error-pill-color: #fff1e7 ;
+
+	  --draft-pill-bgcolor:#7c7c7c;
+	  --draft-pill-color:#f8f8f8;
+	}
+  }
+

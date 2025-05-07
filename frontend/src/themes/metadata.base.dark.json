@@ -1,0 +1,125 @@
+{
+  "items": [
+    {
+      "key": "$base-text-color",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$button-default-color",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$base-border-radius",
+      "value": "8px"
+  },
+  {
+      "key": "$base-font-family",
+      "value": "\"InterVariable\", \"Inter\", \"-apple-system\", \"BlinkMacSystemFont\", \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif"
+  },
+  {
+      "key": "$base-link-color",
+      "value": "rgba(146, 146, 146, 1)"
+  },
+  {
+      "key": "$datagrid-cell-modified-border-color",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+      "key": "$datagrid-columnchooser-font-weight",
+      "value": "700"
+  },
+  {
+      "key": "$datagrid-selection-bg",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+      "key": "$toolbar-bg",
+      "value": "rgba(0, 0, 0, 1)"
+  },
+  {
+      "key": "$datagrid-drag-header-border-color",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$datagrid-row-focused-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$selectbox-list-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$pager-page-selected-color",
+      "value": "rgba(255, 255, 255, 1)"
+  },
+  {
+      "key": "$base-focus-color",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$datagrid-search-color",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$button-default-selected-color",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$datagrid-border-radius",
+      "value": "8px"
+  },
+  {
+      "key": "$base-accent",
+      "value": "rgba(248, 248, 248, 1)"
+  },
+  {
+      "key": "$button-default-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$button-default-selected-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$button-default-hover-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$button-default-focused-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$button-default-active-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$pager-page-selected-bg",
+      "value": "rgba(35, 35, 35, 1)"
+  },
+  {
+      "key": "$base-typography-bg",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+      "key": "$base-bg",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+      "key": "$datagrid-base-background-color",
+      "value": "rgba(23, 23, 23, 1)"
+  },
+  {
+    "key": "$texteditor-border-bottom-color",
+    "value": "rgba(97, 97, 97, 1)"
+},
+{
+    "key": "$datagrid-editor-bg",
+    "value": "rgba(56, 56, 56, 1)"
+}
+  ],
+  "baseTheme": "fluent.blue.dark",
+  "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+  "outputColorScheme": "dark",
+  "base": true,
+  "makeSwatch": true
+}
